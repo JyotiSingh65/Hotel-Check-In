@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:10;
+}
+
+body{
+    background-color: rgb(233, 183, 151);
+}
+@media (max-width:400px) and (orientation:landscape) {
+    body{
+        background-color: rgb(180, 104, 56);
+    }
+}
+.container{
+    background-color: white;
+    padding: 10px 10px 10px 10px 0px;
+    /* border:1px solid rgb(213, 138, 72); */
+    margin:100px 150px 100px 150px ;
+    width:fit-content;
+    height:800px; 
+    /* display:flex; */
+
+}
+img{
+    width: 600px;
+    height:800px;
+    
+    object-fit: cover;
+    margin-bottom: none;
+}
+.contact{
+    float:right;
+    background-color: white;
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 0px;
+    padding-left:20px;
+}
+.float{
+    float: left;
+    width:180px;
+    padding-left: none;
+    
+   
+}
+.heading{
+    padding: 0px;
+    margin-bottom: 40x;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+p{
+    color: rgb(113, 110, 110);
+}
+input,textarea,select{
+    width: 70%;
+    border: none;
+    padding:10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(190, 181, 181);
+    
+}
+
+input[type="submit"]
+{
+    width:20%;
+    margin-top: 10px;
+    background-color: rgb(233, 183, 151);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+input[type="submit"]:hover{
+    background-color:rgb(210, 151, 115) ;
+    font-weight: bolder;
+
+}
+.tagline{
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+ul li{
+    float:left;
+    list-style-type: none;
+    width: 120px;
+    
+}
+#icon{
+    width: 25px;
+    height:25px;
+    margin-left: 15px;;
+}
+#icon:hover{
+    width: 30px;
+    height:30px;
+    margin-left: 15px;;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color:green;
+}
